@@ -17,7 +17,7 @@ const FetchItem = () => {
     const signal = controller.signal;
 
     dispatch(markFetchingStarted());
-    fetch("http://localhost:8080/items", {
+    fetch("http://localhost:8081/items", {
       signal,
     })
       .then((res) => res.json())
