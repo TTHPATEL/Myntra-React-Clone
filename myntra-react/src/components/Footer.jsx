@@ -48,12 +48,14 @@ const Footer = () => {
           <div className="footer_column">
             <h3>EXPERIENCE MYNTRA APP ON MOBILE</h3>
             <div>
+              <a href="https://play.google.com/store/apps/details?id=com.myntra.android">
               <img
                 src="images/google-play-logo.png"
                 alt=""
                 width={"140px"}
                 height={"45px"}
               />
+                </a>
               <img
                 src="images/app-store-logo.png"
                 alt=""
