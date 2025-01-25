@@ -78,7 +78,7 @@ const Footer = () => {
               }}
             >
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/" target="_blank"
                 style={{
                   display: "flex",
                   gap: "20px",
@@ -91,7 +91,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://x.com/"
+                href="https://x.com/" target="_blank"
                 style={{
                   display: "flex",
                   gap: "20px",
@@ -104,7 +104,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://www.youtube.com/"
+                href="https://www.youtube.com/" target="_blank"
                 style={{
                   display: "flex",
                   gap: "20px",
@@ -117,7 +117,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://www.instagram.com/  "
+                href="https://www.instagram.com/  " target="_blank"
                 style={{
                   display: "flex",
                   gap: "20px",
