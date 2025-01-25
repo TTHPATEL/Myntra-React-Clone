@@ -48,7 +48,7 @@ const Footer = () => {
           <div className="footer_column">
             <h3>EXPERIENCE MYNTRA APP ON MOBILE</h3>
             <div>
-              <a href="https://play.google.com/store/apps/details?id=com.myntra.android">
+              <a href="https://play.google.com/store/apps/details?id=com.myntra.android" target="_blank">
               <img
                 src="images/google-play-logo.png"
                 alt=""
@@ -56,15 +56,15 @@ const Footer = () => {
                 height={"45px"}
               />
                 </a>
-                            <a href="https://play.google.com/store/apps/details?id=com.myntra.android">
-
+              
+              <a href="https://itunes.apple.com/in/app/myntra-indias-fashion-store/id907394059" target="_blank">
               <img
                 src="images/app-store-logo.png"
                 alt=""
                 width={"140px"}
                 height={"45px"}
               />
-                                              </a>
+              </a>
 
             </div>
             <a href="#" style={{ fontWeight: "bold", marginTop: "20px" }}>
