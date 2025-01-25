@@ -56,12 +56,16 @@ const Footer = () => {
                 height={"45px"}
               />
                 </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.myntra.android">
+
               <img
                 src="images/app-store-logo.png"
                 alt=""
                 width={"140px"}
                 height={"45px"}
               />
+                                              </a>
+
             </div>
             <a href="#" style={{ fontWeight: "bold", marginTop: "20px" }}>
               KEEP IN TOUCH
