@@ -2,7 +2,7 @@ import { FaFacebook } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
@@ -12,13 +12,13 @@ const Footer = () => {
           <div className="footer_column">
             <h3>ONLINE SHOPPING</h3>
 
-            <a href="#">Men</a>
-            <a href="#">Women</a>
-            <a href="#">Kids</a>
-            <a href="#">Home & Living</a>
-            <a href="#">Beauty</a>
-            <a href="#">Gift Card</a>
-            <a href="#">Myntra Insider</a>
+            <Link to="/men">Men</Link>
+            <Link to="/women">Women</Link>
+            <Link to="/kids">Kids</Link>
+            <Link to="/livingandhome">Home & Living</Link>
+            <Link to="/beauty">Beauty</Link>
+            <Link to="#">Gift Card</Link>
+            <Link to="#">Myntra Insider</Link>
           </div>
 
           <div className="footer_column">
